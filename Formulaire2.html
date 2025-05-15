@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>ma page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" media=”all” />
+<style type=""text/css">
+ body{background-color:gainsboro}
+ em{color:rgb(0, 110, 255)}  
+</style>
+</head>
+<body>
+<h1><em><strong style=color:rgb(255, 80, 182)>Formulaire d'enrégistrement</strong></em></h1>
+<fieldset style="border-style: dashed;"> 
+    <legend>Etat civil</legend> <!-- Titre du fieldset --> 
+     
+    <label for="Matricule"> Matricule:</label> <input type="text" name="Matricule" id="Matricul" tabindex="10" />
+    
+    
+    <label for="Nom">Nom:</label> <input type="text" name="Nom" id="Nom" tabindex="10" /> </br>
+    <label for="Prénom"> Prénom:</label> <input type="text" name="Prénom" id="Prénom" tabindex="10" />
+    
+    
+    <label for="Sexe">Sexe:</label> <input type="text" name="Sexe" id="Sexe" tabindex="10" /> </br>
+    <label for="Date de naissance"> Date de naissance:</label> <input type="text" name="Date de naissance" id="Date de naissance" tabindex="10" />
+    
+    
+    <label for="Age">Age:</label> <input type="text" name="Age" id="Age" tabindex="10" /> </br>
+    </fieldset> 
+
+
+    <fieldset style="border-style:double;" > 
+        <legend>Mes diplômes</legend> <!-- Titre du fieldset --> 
+         
+        <label for="CEP"> CEP:</label> <input type="checkbox" name="CEP" id="CEP" tabindex="10" />
+        
+        
+        <label for="BEPC">BEPC:</label> <input type="checkbox" name="BEPC" id="BEPC" tabindex="10" />
+        <label for="BAC"> BAC:</label> <input type="checkbox" name="BAC" id="BAC" tabindex="10" /></br>
+        </fieldset>
+
+
+
+        <fieldset style="border-style: solid;"> 
+            <legend>Expertise</legend> <!-- Titre du fieldset --> 
+             
+            <label for="Expert en IT"> Expert en IT:</label> <input type="radio" name="Expet en IT" id="Expert en IT" tabindex="10" />
+            <label for="Expert en bavardage">Expert en bavardage:</label> <input type="checkbox" name="Expert en bavardage" id="Expert en bavardage" tabindex="10" /></br>
+        </fieldset>
+       
+        
+        <fieldset style="border-style: groove;"> 
+        <p> 
+        <input type="submit" value="Envoyer" /> 
+        <input type="reset" value="Effacer"/>
+        <input type="button" value="Quitter" />  
+        </p>
+         
+        </form>
+            
